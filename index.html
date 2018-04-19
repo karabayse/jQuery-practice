@@ -3,90 +3,30 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <title>jQuery Practice</title>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <title>jQuery Practice | AJAX</title>
   </head>
+
   <body>
+
     <header>
-      <h1>jQuery Practice</h1>
+      <h1>jQuery Practice | AJAX</h1>
     </header>
 
     <div id="container">
-      <h1 id="heading1">Heading One</h1>
-      <p id="para1">
-        This is paragraph 1.
-      </p>
+      <div id="result"></div>
 
-      <h1 class="heading2">Heading Two</h1>
-      <p class="para2">
-        This is paragraph 2.
-      </p>
+      <ul id="users"></ul>
 
-      <ul id="list">
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-      </ul>
-
-      <input type="button" value="Button 1">
-      <input type="submit" value="Submit">
-      <input type="text">
-
-      <a href="http://google.com">Google</a>
-      <a href="http://yahoo.com">Yahoo</a>
-
-      <h3>MOUSE EVENTS</h3>
-      <button id="btn1">Button 1</button>
-      <button id="btn2">Button 2</button>
-      <button id="btn3">Button 3</button>
-      <button id="btn4">Button 4</button>
-
-      <p class="para3">
-        This is paragraph 3.
-      </p>
-      <p class="para4">
-        This is paragraph 4.
-      </p>
-
-      <div id="myDiv">
-
-      </div>
-
-      <input type="text" id="newItem">
-
-      <ul id="list">
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-      </ul>
-
-      <ul id="users">
-
-      </ul>
-
-      <hr>
-
-      <form id="form">
-        <label>Name</label><br>
-        <input type="text" name="Name" id="name">
+      <h3>Add Post</h3>
+      <form id="postForm" action="https://jsonplaceholder.typicode.com/posts">
+        <input type="text" id="title" placeholder="Title">
         <br>
-        <label>Email</label><br>
-        <input type="email" name="email" value="email">
-        <br>
-        <label>Gender</label><br>
-        <select id="gender" name="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
+        <textarea placeholder="Body" id="body"></textarea>
         <br>
         <input type="submit" value="Submit">
       </form>
-    </div>  <!-- end container id -->
-
+    </div>  <!-- end container div -->
 
     <script src="client.js" charset="utf-8"></script>
   </body>

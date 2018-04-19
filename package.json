@@ -1,0 +1,22 @@
+{
+  "name": "jquery-practice",
+  "version": "1.0.0",
+  "description": "jQuery Practice",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karabayse/jQuery-practice.git"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "Kara Bayse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karabayse/jQuery-practice/issues"
+  },
+  "homepage": "https://github.com/karabayse/jQuery-practice#readme"
+}
